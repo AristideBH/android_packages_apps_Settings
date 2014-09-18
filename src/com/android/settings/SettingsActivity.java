@@ -112,6 +112,11 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
+<<<<<<< HEAD
+=======
+import com.android.settings.headsup.HeadsUpSettings;
+import com.android.settings.chroma.DisplayRotation;
+>>>>>>> 003d68c... Rotation tile: Longclick action [2/2]
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -302,7 +307,8 @@ public class SettingsActivity extends Activity
             AppNotificationSettings.class.getName(),
             OtherSoundSettings.class.getName(),
             QuickLaunchSettings.class.getName(),
-            ApnSettings.class.getName()
+            ApnSettings.class.getName(),
+    	    DisplayRotation.class.getName()
     };
 
 
