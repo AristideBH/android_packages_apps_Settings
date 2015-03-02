@@ -75,6 +75,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
     private static final String KEY_LOCK_SCREEN_NOTIFICATIONS = "lock_screen_notifications";
     private static final String KEY_NOTIFICATION_ACCESS = "manage_notification_access";
+    private static final String KEY_HEADS_UP_SETTINGS = "heads_up_enabled";
 
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
 
@@ -148,8 +149,14 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         updateRingerMode();
         updateEffectsSuppressor();
 
-        mHeadsUp = findPreference(Settings.System.HEADS_UP_NOTIFICATION)
+        mHeadsUp = findPreference(KEY_HEADS_UP_SETTINGS);
     }
+
+	private boolean getUserHeadsUpState() {
+         return Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.HEADS_UP_USER_ENABLED,
+                Settings.System.HEADS_UP_USER_ON) != 0;
+     }
 
     @Override
     public void onResume() {
@@ -165,9 +172,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         }
     }
 
-        boolean headsUpEnabled = Settings.System.getInt(
-                getContentResolver(), Settings.System.HEADS_UP_NOTIFICATION, 1) != 0;
-        mHeadsUp.setSummary(headsUpEnabled
+        mHeadsUp.setSummary(getUserHeadsUpState()
                 ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
 
     @Override
