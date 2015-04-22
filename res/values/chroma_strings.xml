@@ -122,4 +122,6 @@
     <string name="heads_up_time_out_8sec">8 seconds</string>
     <string name="heads_up_time_out_10sec">10 seconds</string>
     <string name="heads_up_time_out_never">Never</string>
+
+   <string name="allow_lights_title">Allow notification lights</string>
 </resources>
