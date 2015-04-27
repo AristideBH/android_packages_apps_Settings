@@ -410,4 +410,6 @@
     <string name="none_is_silent_summary">Silent mode always sounds alarms</string>
 
     <string name="allow_lights_title">Allow notification lights</string>
+
+    <string name="notification_led_header">Notification LED</string>
 </resources>
