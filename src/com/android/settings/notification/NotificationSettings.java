@@ -17,7 +17,7 @@
 package com.android.settings.notification;
 
 import android.app.NotificationManager;
-import android.content.BroadcastReceiver;
+importf android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
