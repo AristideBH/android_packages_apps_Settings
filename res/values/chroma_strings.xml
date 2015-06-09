@@ -88,4 +88,10 @@
     <string name="blacklist_policy_block_calls">Block incoming calls</string>
     <string name="blacklist_policy_block_messages">Block incoming messages</string>
     <string name="blacklist_bad_number_add">Unable to add invalid phone number to blocked caller list</string>
+
+    <!-- Navigation bar category -->
+    <string name="display_category_navbar_options_title">Navigation bar options</string>
+    <!-- Developer options - kill app long press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
 </resources>
