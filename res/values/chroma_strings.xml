@@ -56,6 +56,7 @@
 
     <!--  Volume rocker -->
     <string name="volume_rocker_screen_title">Volume rocker</string>
+    <string name="volume_rocker_cursor_title">Cursor options</string>
     <!--- Volume key cursor control -->
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
     <string name="volume_key_cursor_control_off">Disabled</string>
@@ -98,8 +99,12 @@
     <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
     <string name="status_bar_double_tap_to_sleep_summary">Enable or disable to toggle double-tap to sleep on status bar</string>
 
-    <!-- Status bar-->
-    <string name="/display_category_statusbar_options_title">Status bar</string>
+    <!-- Status bar category -->
+    <string name="display_category_statusbar_options_title">Status bar options</string>
+    <!-- Recent apps category -->
+    <string name="display_category_recents_options_title">Recent apps options</string>
+    <!-- Power menu category -->
+    <string name="display_category_power_options_title">Power menu options</string>
 
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up notifications</string>
@@ -124,4 +129,28 @@
     <string name="heads_up_time_out_never">Never</string>
 
    <string name="allow_lights_title">Allow notification lights</string>
+
+    <!-- Generic strings -->
+    <string name="ok_string">Ok</string>
+    <string name="default_string">Default</string>
+    <string name="enabled_string">Enabled</string>
+    <string name="disabled_string">Disabled</string>
+    <string name="general_string">General</string>
+    <string name="reset_string">Reset</string>
+    <string name="empty_string">Empty</string>
+    <string name="attention">Attention</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- Silent mode -->
+    <string name="none_is_silent_title">None is Silent mode</string>
+    <string name="none_is_silent_summary">Silent mode always sounds alarms</string>
 </resources>
