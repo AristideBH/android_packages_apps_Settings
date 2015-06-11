@@ -69,7 +69,6 @@
 
     <PreferenceCategory
         android:title="@string/qs_category_title">
-    </PreferenceCategory>
 
     <PreferenceScreen
         android:key="qs_order"

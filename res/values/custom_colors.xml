@@ -38,4 +38,18 @@
     <color name="ownerinfo_divider_color">#ff404040</color>
     <!-- Installed app details -->
     <color name="security_settings_billing_desc_color">#ffffb060</color>
+
+    <color name="exposed_qs_tile_text">#de000000</color>
+
+    <!-- Legacy exposed resources for theming -->
+    <color name="exposed_bg_dark">@android:color/white</color>
+    <color name="exposed_primary_text_light">@android:color/black</color>
+    <color name="exposed_secondary_text_light">#8a000000</color>
+    <color name="exposed_primary_text_dark">@android:color/white</color>
+    <color name="exposed_barPrimaryColor">#ff009688</color>
+    <color name="exposed_barPredictionColor">@color/material_empty_color_light</color>
+    <color name="exposed_datachartfillcolor">#ff009688</color>
+    <color name="exposed_datachartfillcolor_secondary">#ff80cbc4</color>
+    <color name="exposed_data_limit_chart_labelcolor">#ff37474f</color>
+    <color name="exposed_data_warning_chart_labelcolor">#fff4511e</color>
 </resources> 
